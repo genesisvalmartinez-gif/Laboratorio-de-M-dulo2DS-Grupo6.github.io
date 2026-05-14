@@ -1,12 +1,16 @@
-{import org.springframework-StylePropertyMapReadOnly.Controller;
-import "org.springframework.ui.Model;
-import "; org.springframework.web.bind.anotation.GetMapping;}
+const menu = document.querySelector("nav");
+const header = document.querySelector("#mi-encabezado");
 
-@Controller
-public class saludadorcontroller {
+// Obtén la altura del encabezado
+const headerHeight = header.offsetHeight;
 
-    @GetMapping("/hola") // Cuando el usuario entre a /hola
-    public string saludar (Model model) {
-        model.addAttribute("mensaje", "¡Hola, mundo!");
-        return "saludo"; //busca un  achivo llamado indice,.html
-    }
+// Función que cambia el color de fondo del menú cuando se desplaza
+window.addEventListener("scroll", () => {
+if (window.scrollY > headerHeight) {
+menu.style.backgroundColor = "rgb(86, 255, 247)"; // Cambia el color de fondo a
+azul
+} else {
+menu.style.backgroundColor = "rgb(49, 255, 247)"; // Vuelve al fondo
+transparente
+}
+});

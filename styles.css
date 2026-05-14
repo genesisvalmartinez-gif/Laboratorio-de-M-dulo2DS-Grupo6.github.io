@@ -2,12 +2,12 @@
 
 /* Establece una imagen de fondo para el encabezado */
 #mi-encabezado {
-      background-image: url('Imagen\ 3/el-impacto-de-las-rr-ss-en-nuestras-relaciones-sociales.jpg'); /* Reemplaza 'ruta-de-tu-imagen.jpg'
+      background-image: url('Imagen\ 3/alimentacion-930x620.jpg'); /* Reemplaza 'ruta-de-tu-imagen.jpg'
 con la ubicación de tu imagen */
 background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
 background-position: center; /* Centra la imagen en el encabezado */
-height: 35rem; /* Altura del encabezado (ajusta según tus necesidades) */
-color: #ebebeb; /* Color del texto en el encabezado para asegurar la legibilidad */
+height: 34rem; /* Altura del encabezado (ajusta según tus necesidades) */
+color: #2aceb3; /* Color del texto en el encabezado para asegurar la legibilidad */
 text-orientation: upright;
 text-align: center; /* Alinea el contenido al centro del encabezado */
 padding: 20px; /* Espacio de relleno interno para el contenido */
@@ -29,7 +29,7 @@ font-size: 25px; /* Tamaño de fuente del texto del encabezado */
 
 /* Establece el fondo transparente para el menú */
 nav {
-background-color: rgba(255, 255, 255, 0);
+background-color: rgb(81, 247, 205);
 padding: 20px;
 position: fixed; /* Posiciona el menú en la parte superior de la página */
 top: 0;
@@ -55,7 +55,7 @@ margin-right: 30px; /* Espacio entre elementos del menú */
 
 a {
 text-decoration: none;
-color: #ffffff; /* Color del texto del menú */
+color: #000000; /* Color del texto del menú */
 font-weight: bold;
 }
 
@@ -86,10 +86,10 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer {
-background-color: rgb(0, 255, 200); /* Cambia el color de fondo a azul */
+background-color: rgb(73, 253, 214); /* Cambia el color de fondo a azul */
 padding: 10rem;
-color: #ff9c9c;
-color: #c73737; /* Color del texto en el encabezado para asegurar la legibilidad */
+color: #000000;
+color: #000000; /* Color del texto en el encabezado para asegurar la legibilidad */
 text-align: center; /* Alinea el contenido al centro del encabezado */
 /* Espacio de relleno interno para el contenido */
 
