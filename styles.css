@@ -6,11 +6,11 @@
 con la ubicación de tu imagen */
 background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
 background-position: center; /* Centra la imagen en el encabezado */
-height: 34rem; /* Altura del encabezado (ajusta según tus necesidades) */
+height: 15rem; /* Altura del encabezado (ajusta según tus necesidades) */
 color: #67d1bf; /* Color del texto en el encabezado para asegurar la legibilidad */
 text-orientation: upright;
 text-align: center; /* Alinea el contenido al centro del encabezado */
-padding: 20px; /* Espacio de relleno interno para el contenido */
+padding: 100px; /* Espacio de relleno interno para el contenido */
 
 }
 
@@ -30,7 +30,7 @@ font-size: 25px; /* Tamaño de fuente del texto del encabezado */
 /* Establece el fondo transparente para el menú */
 nav {
 background-color: rgb(81, 247, 205);
-padding: 20px;
+padding: 15px 20px;
 position: fixed; /* Posiciona el menú en la parte superior de la página */
 top: 0;
 left: 0;
@@ -67,7 +67,7 @@ color: #000000; /* Cambia el color al pasar el mouse por encima */
 /*CONFIGURACION DEL BODY*/
 body {
 /*configura los margenes de la página*/
-margin-top: 0px; /* Ajusta según la altura del menú */
+margin-top: 60px; /* Ajusta según la altura del menú */
 margin-left: 0px;
 margin-right: 0px;
 font-family: Arial, Helvetica, sans-serif;
@@ -86,7 +86,7 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer {
-background-color: rgb(73, 253, 214); /* Cambia el color de fondo a azul */
+background-color: rgb(71, 253, 214); /* Cambia el color de fondo a azul */
 padding: 10rem;
 color: #000000;
 color: #000000; /* Color del texto en el encabezado para asegurar la legibilidad */
